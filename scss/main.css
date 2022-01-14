@@ -91,17 +91,23 @@ body {
 #slider {
   width: 980px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 #slider #slider_area {
-  width: inherit;
-  height: 300px;
+  margin-top: 20px;
+  width: 800px;
+  height: 320px;
 }
 
 #slider #slider_area figure {
-  width: inherit;
+  width: 600px;
   height: 300px;
+}
+
+#slider #slider_area figure img {
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 #slider #slider_simple_bg {

@@ -74,15 +74,21 @@ body {
 #slider {
   width: 980px;
   margin: 0 auto;
-  border: 1px solid black;
 
-  #slider_area {
-    width: inherit;
-    height: 300px;
+  #slider_area { 
+    margin-top: 20px; 
+    width: 800px;
+    height: 320px;
 
     figure {
-      width: inherit;
+      width: 600px;
       height: 300px;
+
+      img{
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
     }
   }
 
