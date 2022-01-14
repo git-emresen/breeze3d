@@ -1,0 +1,139 @@
+$bg-color: #393939;
+
+body {
+  margin: 0;
+}
+
+#header {
+  #header-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: $bg-color;
+
+    .search {
+      margin-right: 210px;
+      display: flex;
+      justify-content: center;
+
+      #searchBox {
+        height: 31px;
+        width: 179px;
+        float: left;
+        font: normal 11px Arial, Helvetica, sans-serif;
+        color: #a4a4a4;
+        border: 1px solid black;
+      }
+    }
+  }
+  #header-bottom {
+    width: 100%;
+    height: 80px;
+    background-color: #404040;
+
+    #logo {
+      float: left;
+      position: relative;
+      left: 185px;
+      top: -10px;
+    }
+    #menu {
+      position: relative;
+      right: 185px;
+      height: inherit;
+      float: right;
+      display: flex;
+      align-items: center;
+
+      ul {
+        list-style-type: none;
+      }
+      li {
+        margin: 20px;
+        float: left;
+        a {
+          font: bold 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+          color: #c2c2c2;
+        }
+
+        a:active {
+          color: #fff;
+          background: url(images/r_menu.gif) no-repeat right;
+        }
+      }
+    }
+  }
+}
+
+#slider {
+  width: 980px;
+  margin: 0 auto;
+  border: 1px solid black;
+
+  #slider_area {
+    width: inherit;
+    height: 300px;
+
+    figure {
+      width: inherit;
+      height: 300px;
+    }
+  }
+
+  #slider_simple_bg {
+    margin-bottom: 20px;
+  }
+
+  #slider_boxes {
+    width: inherit;
+    height: 185px;
+    background: #2e2f2f;
+
+    .slider_box {
+      float: left;
+      width: 280px;
+      height: 170px;
+      padding: 5px 30px 5px 20px;
+
+      img {
+        float: left;
+        margin-top: -15px;
+        padding: 0 10px 10px 0;
+      }
+      #box_header {
+        position: relative;
+        left: 20px;
+
+        .h3_header {
+          display: inline-block;
+          margin-bottom: 0;
+          padding-bottom: 0;
+          font: bold 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+          color: #fff;
+        }
+
+        .p_header_sub {
+          font: bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+          display: inline-block;
+          margin-top: 0;
+          color: #a9a8a8;
+        }
+      }
+
+      .p_text {
+        max-width: 266px;
+        font: normal 12px Arial, Helvetica, sans-serif;
+        color: #979797;
+        margin: 0; 
+        line-height: 1.8em;
+        display: inline-block;
+      }
+    }
+  }
+}
