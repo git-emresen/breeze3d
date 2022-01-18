@@ -8,36 +8,39 @@
     <title>Document</title>
 </head> 
 <body>
-    <header id="header"> <!--------------------------------->
+    <header id="header"> 
      <div id="header-top">
         <div class="search">
         <input type="search" id="searchBox" maxlength="50" placeholder="Search..">
-         <input type="image" id="btnSearch" src="/images/search.gif"></input>
+         <input type="image" id="btnSearch" src="./images/search.gif"></input>
         </div>
      </div>
+     
+     <div id="header-bottom-bg">
      <div id="header-bottom">
         <div id="logo">
-            <a href=""><img src="images/logo.png" width="228" height="116"></a>
+            <a href=""><img src="./images/logo.png" width="228" height="116"></a>
         </div>
         <div id="menu">
             <ul>
-                <li><a>HOME</a></li>
-                <li><a>SERVICES</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
                 <li><a>PORTFOLIO</a></li>
                 <li><a>ABOUT US</a></li>
                 <li><a>CONTACT US</a></li>
             </ul>
         </div>
      </div>
+    </div>
     </header>
     <div id="slider">    <!--------------------------------->
         <div id="slider_area">
-            <figure><img src="../images/port_1.jpg"</figure>
+            <figure><!-- <img src="/images/port_1.jpg"> --></figure>
         </div>
         <div id="slider_simple_bg">
             <img src="images/simple_bg.gif"> 
         </div>
-        <div id="slider_boxes">
+        <div class="slider_blog">
             <div class="slider_box">
                 <img src="images/slot_img_1.jpg" alt="picture" width="77" height="86">
                <header id="box_header">
@@ -71,7 +74,7 @@
                     <h2>Our Skils</h2>    
                     <p>sed congue, dui vel trisque mollis...</p>            
                 </header>
-                <img src="../images/port_1.jpg">
+                <img src="./images/port_1.jpg">
                 <p class="content_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. <br>
                     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br>
                   </p>
@@ -112,7 +115,7 @@
     <footer>
      <div id="footer_content">
         <div class="footer_box">
-            <div class="logo"><img src="../images/fbg_logo.gif"></div>
+            <div class="logo"><img src="./images/fbg_logo.gif"></div>
            
             <div class="rss"> <p>Social Network</p> <img src="images/rss_1.gif" alt="picture" width="16" height="16" class="rsss"> <img src="images/rss_2.gif" alt="picture" width="16" height="16" class="rsss"> <img src="images/rss_3.gif" alt="picture" width="16" height="16" class="rsss"> <img src="images/rss_4.gif" alt="picture" width="16" height="16" class="rsss"> <img src="images/rss_5.gif" alt="picture" width="16" height="16" class="rsss"> <img src="images/rss_6.gif" alt="picture" width="16" height="16" class="rsss"> </div>
             
@@ -154,4 +157,5 @@
     </div>
     </footer>
 </body>
+<script src="script.js" type="text/javascript"></script>
 </html>
